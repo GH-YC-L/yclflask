@@ -1,0 +1,15 @@
+<html>
+    <body>
+        <h1>Predict Bankruptcy</h1>
+        <form action="http://127.0.0.1:5000" method="post">
+            <p>Please key in the Net Profit / Total Asset ratio: </p>
+            <P><input type="number" step="0.01" name="NPTA"></P>
+            <p>Please key in the Total Liability / Total Asset ratio:</p>
+            <P><input type="number" step="0.01" name="TLTA"></P>
+            <p>Please key in the Working Capital / Total Asset ratio:</p>
+            <P><input type="number" step="0.01" name="WCTA"></P>
+            <P><input type="submit" value="Enter"></P>
+        </form>
+        {{result}}
+    </body>
+</html>
